@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex10_1.jpg" alt="Tarefas" class="imgProg">
+            </div>
+            
+            <div class="col-sm-8" id="divQuadro">
+                <h1>Tarefas do Dia (a realizar)</h1>
+                <p>
+                    <label for="inTarefa">Tarefa:</label>
+                    <input type="text" class="form-control" id="inTarefa" autofocus>
+                </p>
+                <p>
+                    <input type="button" value="Adicionar &#10003" class="btn btn-primary" id="btAdicionar">
+                    <input type="button" value="Selecionar &#8645" class="btn btn-info" id="btSelecionar">
+                    <input type="button" value="Retirar &#10007" class="btn btn-danger" id="btRetirar">
+                    <input type="button" value="Gravar &#9673" class="btn btn-success" id="btGravar">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex001.js"></script>
+</body>
+</html>

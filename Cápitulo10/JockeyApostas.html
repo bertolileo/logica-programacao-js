@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jockey Club</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex11_1.jpg" alt="JockeyClub" class="imgProg">
+            </div>
+
+            <div class="col-sm-8">
+                <h1>Jockey Club - Controle de Apostas</h1>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <label for="inCavalo">Nº Cavalo:</label>
+                            <input type="text" id="inCavalo" class="form-control aDireita" autofocus>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h5 id="outCavalo"></h5>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <label for="inAposta">Aposta R$:</label>
+                            <input type="text" id="inValor" class="form-control aDireita">
+                        </p>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        <p>
+                            <input type="button" value="Apostar" id="btApostar" class="btn btn-primary margemSup">
+                            <input type="button" value="Ganhador" id="btGanhador" class="btn btn-success margemSup">
+                            <input type="button" value="Novo Páreo" id="btNovo" class="btn btn-danger margemSup">
+                        </p>
+                    </div>
+                </div>
+                <pre id="outApostas"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="js/jockey.js"></script>
+</body>
+</html>

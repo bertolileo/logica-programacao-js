@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exemplo 3</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex10_3.jpg" alt="Filmes" class="imgProg">
+            </div>
+            <div class="col-sm-8">
+                <h1>Meus Filmes Favoritos</h1>
+                <p>
+                  <label for="inTitulo"></label>  
+                  <input type="text" id="inTitulo" class="form-control">
+                </p>
+                <p>
+                 <label for="inGenero"></label>
+                 <input type="text" id="inGenero" class="form-control">
+                </p>
+                <p class="aDireita">
+                    <input type="button" value="Adicionar" id="btAdicionar" class="btn btn-primary"> 
+                </p>
+                
+                <table class="table table-striped" id="tbFilmes">
+                    <tr>
+                        <th>Título do Filme</th>
+                        <th>Gênero</th>
+                        <th>
+                            <label><input type="checkbox" id="ckTodos" class="form-check-input"> Todos </label>
+                        </th>
+                    </tr>
+                </table>
+                <p class="aDireita">
+                    <input type="button" value="Excluir Selecionados" id="btExcluir" class="btn btn-danger">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/ex003.js"></script>
+</body>
+</html>
